@@ -12,7 +12,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - uses: shallwefootball/s3-upload-action@master
+      - uses: parth-paradkar/s3-upload-action-without-acl@master
         name: Upload S3
         id: S3
         with:
